@@ -30,21 +30,36 @@ Y el texto continuará abajo. También puedes usar una etiqueta<br>para forzar e
 Para resaltar un comando en el texto usa `npm install`.
 
 Para un bloque de código completo:
-```javascript
-console.log("Bloque de código aquí");
+
 
 ## 📂 Estructura del Proyecto
 
 Así es como están organizados los archivos:
 
 ```text
-mi-proyecto/
-├── src/
-│   ├── componentes/
-│   │   └── Boton.js
-│   ├── index.js
-│   └── estilos.css
-├── public/
-│   └── index.html
-├── package.json
-└── README.md
+REPO/
+├── docker-compose.yml          <-- Orquesta Frontend, Backend y MySQL,etc
+├── frontend/                   <-- Todo lo del frontend
+│   ├── #.#
+│   └── #/
+├── backend/                    <-- TODO lo del backend
+│   ├── #.#
+│   └── #/
+└── database/                   <-- Todo el manejo de bases de datos
+    ├── oracle_10g/             <-- Tus scripts y data originales (solo de referencia)
+    │   ├── routines/           (procedimientos, triggers, cursores de Oracle)
+    │   │   ├── triggers.sql
+    │   │   ├── funciones.sql
+    │   │   ├── procedimientos.sql
+    │   │   ├── cursores.sql
+    │   │   └── triggers.sql
+    │   └── #.sql      
+    │
+    └── mysql/      <-- Scripts ya migrados a sintaxis MySQL
+        ├── routines/           (procedimientos, triggers, cursores de Oracle)
+        │   ├── triggers.sql
+        │   ├── funciones.sql
+        │   ├── procedimientos.sql
+        │   ├── cursores.sql
+        │   └── triggers.sql
+        └── #.sql     
