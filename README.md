@@ -1,9 +1,3 @@
-# DB_GRUPO_2_PEDIDOS_YA
-/DB
--/ORACLE_10G
-/FRONT-END
-/BACK-END
-
 
 # DB_GRUPO_2
 ## Subtítulo
@@ -29,7 +23,7 @@ Y el texto continuará abajo. También puedes usar una etiqueta<br>para forzar e
 
 Para resaltar un comando en el texto usa `npm install`.
 
-Para un bloque de código completo:
+
 
 
 ## 📂 Estructura del Proyecto
